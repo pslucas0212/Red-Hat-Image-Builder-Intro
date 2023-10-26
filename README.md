@@ -35,5 +35,5 @@ $ sudo reboot now
   
 Enable the firewall
 ```
-$ sudo firewall-cmd --add-service=cockpit && firewall-cmd --add-service=cockpit --permanent
+$ $  sudo firewall-cmd --add-service=cockpit && sudo firewall-cmd --add-service=cockpit --permanent
 ```
