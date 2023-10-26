@@ -40,7 +40,8 @@ $ sudo firewall-cmd --add-service=cockpit && sudo firewall-cmd --add-service=coc
 
 Enable image builder
 ```
-$ sudo systemctl enable osbuild-composer.socket cockpit.socket --now
+$ sudo systemctl enable osbuild-composer.socket --now
+$ sudo systemctl enable cockpit.socket --now
 ```
 
 Load the shell configuration script so that the autocomplete feature for the composer-cli command starts working immediately without reboot:
