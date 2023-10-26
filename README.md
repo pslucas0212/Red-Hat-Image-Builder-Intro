@@ -27,3 +27,13 @@ Install the following packages on the virtual machine.
   ```
   $ sudo dnf install osbuild-composer composer-cli cockpit-composer bash-completion firewalld
   ```
+
+Reboot the virtual machine
+```
+$ sudo reboot now
+```
+  
+Enable the firewall
+```
+$ sudo firewall-cmd --add-service=cockpit && firewall-cmd --add-service=cockpit --permanent
+```
