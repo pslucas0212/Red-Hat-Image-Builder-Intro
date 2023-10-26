@@ -35,5 +35,10 @@ $ sudo reboot now
   
 Enable the firewall
 ```
-$ $  sudo firewall-cmd --add-service=cockpit && sudo firewall-cmd --add-service=cockpit --permanent
+$ sudo firewall-cmd --add-service=cockpit && sudo firewall-cmd --add-service=cockpit --permanent
+```
+
+Enable image builder
+```
+$ sudo systemctl enable osbuild-composer.socket cockpit.socket --now
 ```
