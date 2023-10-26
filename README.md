@@ -24,9 +24,9 @@ Install the following packages on the virtual machine.
 - bash-completion
 - firewalld
 
-  ```
-  $ sudo dnf install osbuild-composer composer-cli cockpit-composer bash-completion firewalld
-  ```
+```
+$ sudo dnf install osbuild-composer composer-cli cockpit-composer bash-completion firewalld
+```
 
 Reboot the virtual machine
 ```
