@@ -17,3 +17,13 @@ $ sudo dnf update -y  && sudo dnf upgrade -y
 ```
 
 
+Install the following packages on the virtual machine.
+- osbuild-composer
+- composer-cli
+- cockpit-composer
+- bash-completion
+- firewalld
+
+  ```
+  $ sudo dnf install osbuild-composer composer-cli cockpit-composer bash-completion firewalld
+  ```
