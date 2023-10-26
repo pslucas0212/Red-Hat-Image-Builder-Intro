@@ -48,3 +48,5 @@ Load the shell configuration script so that the autocomplete feature for the com
 ```
 $ source /etc/bash_completion.d/composer-cli
 ```
+
+Let's create kickstart RHDE with Microshift
