@@ -42,3 +42,8 @@ Enable image builder
 ```
 $ sudo systemctl enable osbuild-composer.socket cockpit.socket --now
 ```
+
+Load the shell configuration script so that the autocomplete feature for the composer-cli command starts working immediately without reboot:
+```
+$ source /etc/bash_completion.d/composer-cli
+```
